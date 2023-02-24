@@ -67,6 +67,6 @@ function reverseTweets() {
   return [...tweets].reverse();
 }
 
-app.listen(5001, () => {
-  console.log(chalk.bold.blue('Servidor funfando de boas!!!'));
+app.listen(4000, () => {
+  console.log(chalk.bold.blue('running on port 4000'));
 });
